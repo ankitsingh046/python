@@ -4,7 +4,7 @@ root = tk.Tk()
 
 # set size of root window
 root.geometry('350x250')     # cab be resized to max or min
-root.minsize(320,220)
+root.minsize(320, 220)
 # Grid Example
 # function
 
@@ -24,9 +24,9 @@ name_label = tk.Label(root,
                       )
 
 output_label = tk.Label(root,
-                      text='output: ',
-                      font=('arial', 12)
-                      )
+                        text='output: ',
+                        font=('arial', 12)
+                        )
 
 # variables
 name_var = tk.StringVar()
@@ -41,11 +41,11 @@ name_entry = tk.Entry(root,
                       )
 
 output_entry = tk.Entry(root,
-                      font=('Arial', 12),
-                    #   show="*",   # show '*' instead of characters,
-                      textvariable=output_var,  # pass value to variable
-                      state='readonly'
-                      )
+                        font=('Arial', 12),
+                        #   show="*",   # show '*' instead of characters,
+                        textvariable=output_var,  # pass value to variable
+                        state='readonly'
+                        )
 # button
 submit_btn = tk.Button(root,
                        text='Submit',

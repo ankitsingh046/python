@@ -7,9 +7,11 @@ root.geometry('350x250')     # cab be resized to max or min
 
 # Grid Example
 # function
+
+
 def show():
-    name=name_entry.get()   # get entry value
-    passw= pass_entry.get() #get entry value
+    name = name_entry.get()   # get entry value
+    passw = pass_entry.get()  # get entry value
     print(f'{name}, {passw}')
 
 
@@ -40,7 +42,7 @@ submit_btn = tk.Button(root,
                        width='12',
                        bg='Grey',
                        fg='White',
-                    #    command=show
+                       #    command=show
                        )
 
 submit_btn.config(command=show)
