@@ -17,6 +17,6 @@ s1 = tk.Spinbox(root, font=('Arial', 12),
                 )
 s1.pack()
 
-btn1 = tk.Button(root, text='Set', font=('Arial', 12), command=sext)
+btn1 = tk.Button(root, text='Set', font=('Arial', 12), command=set)
 btn1.pack()
 root.mainloop()
